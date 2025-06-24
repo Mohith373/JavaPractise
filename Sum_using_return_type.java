@@ -14,7 +14,10 @@ public class Sum_using_return_type {
         System.out.println("Enter second number:");
         num2 = scanner.nextInt();
         sum = num1 + num2;
-        return sum;
+        return sum;  //return means end of the programme here 
+        
+        System.out.println("this will never executes");//this is independent of programme i.e out of the loop
+        
     }
 }
 
